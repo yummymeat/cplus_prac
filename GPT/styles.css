@@ -1,0 +1,33 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 10px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: #dcdcdc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.target {
+  background-color: red;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
